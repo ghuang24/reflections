@@ -22,5 +22,10 @@ diagrams show the relationships between the commits/branchs. Each commit has a p
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result is a commit that contains changes done on both branches. New node b/c new commit, 2 parents because it contained code from both
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+pros: much faster, less prone to errors
+cons: will encounter conflicts
